@@ -1,6 +1,5 @@
 import cadquery as cq
 
-
 # Boards parameters
 ESP32_WIDTH = 18
 ESP32_LENGTH = 26.27
@@ -177,4 +176,3 @@ asm.add(
     name="cover",
     color=cq.Color("red"),
 )
-
