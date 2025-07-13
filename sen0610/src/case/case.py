@@ -252,7 +252,7 @@ with BuildPart() as corner_holder:
             )
     extrude(amount=-10, mode=Mode.SUBTRACT)  # Cut into the triangle
 
-show(lid)
+# show(lid)
 
 
 # Position lid above base for visualization
@@ -287,7 +287,7 @@ assembly = Compound(
 )
 
 # Show the assembly
-# show_object(assembly, name="Enclosure Assembly")
+show_object(assembly, name="Enclosure Assembly")
 
 # Export individual parts if needed
 # exporter = Mesher()
